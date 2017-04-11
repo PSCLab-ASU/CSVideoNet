@@ -1,0 +1,1 @@
+/home/user/kaixu/myGitHub/caffe/examples/videoNet/training/data/TrainDataCNN_5_10172016.h5

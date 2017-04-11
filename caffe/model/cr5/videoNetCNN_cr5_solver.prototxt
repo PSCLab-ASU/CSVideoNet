@@ -1,0 +1,22 @@
+net: "videoNetCNN_cr5_model_10172016.prototxt"
+test_iter: 100
+test_interval: 5000
+#test_compute_loss: true
+base_lr: 1e-4
+lr_policy: "multistep"
+#lr_policy:"fixed"
+gamma: 0.4
+stepvalue: 1000000
+#stepvalue: 3500000
+#stepvalue: 10000000
+display: 100
+max_iter: 5000000
+momentum: 0.9
+weight_decay: 5e-4
+snapshot: 5000
+snapshot_prefix: "Snapshots/cr_5_CNN_10172016/videoNetCNN_5"
+solver_mode: GPU
+#random_seed: 1701
+#clip_gradients: 10
+#average_loss: 50000
+solver_type: NESTEROV
